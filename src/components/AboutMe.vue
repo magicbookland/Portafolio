@@ -92,4 +92,6 @@ export default {
     font-size: 1em;
   }
 }
+/* Responsividad */
+
 </style>

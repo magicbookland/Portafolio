@@ -29,4 +29,17 @@ export default {
   font-size: 1.2em;
   color: #333;
 }
+@media (max-width: 480px) {
+  .home-section {
+    padding: 30px;
+  }
+
+  .home-section h1 {
+    font-size: 2em;
+  }
+
+  .home-section p {
+    font-size: 0.9em;
+  }
+}
 </style>

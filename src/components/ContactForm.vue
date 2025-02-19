@@ -146,5 +146,21 @@ export default {
   font-size: 1em;
   margin: 0;
 }
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .contact-section {
+    padding: 30px;
+  }
+  .contact-section h2 {
+    font-size: 2em;
+  }
+}
 </style>
 
